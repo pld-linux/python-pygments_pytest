@@ -1,7 +1,8 @@
+# NOTE: for versions >= 2 (for python 3.6+) see python3-pygments_pytest.spec
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-pygments_pytest.spec)
 
 Summary:	A pygments lexer for pytest output
 Summary(pl.UTF-8):	Lexer pygments do wyjścia pytesta
