@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Lexer pygments do wyjścia pytesta
 Name:		python-pygments_pytest
 # keep 1.x here for python2 support
 Version:	1.3.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pygments-pytest/
